@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8adfd3ad; /* Light pink background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f9f9f9; /* Light gray background for header */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.profile img.profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ukuran foto profil */
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.profile h3 {
+    margin-top: 20px;
+}
+
+.profile ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.profile ul ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.company-profile {
+    text-align: justify;
+}
+
+.back-to-top {
+    text-align: right;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+@media (max-width: 600px) {
+    .profile img.profile-image {
+        width: 100%; /* Foto profil akan mengisi lebar pada layar kecil */
+        max-width: 200px; /* Maksimum lebar untuk responsivitas */
+    }
+}
